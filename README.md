@@ -6,4 +6,4 @@ A project for visually communicating trauma science.
 
 [Dev wiki](https://github.com/kathep/trauma/wiki) - where I take notes about ideas for directions and structure of the project.
 
-[Github repo](https://github.com/kathep/trauma/)  |  [Site url](https://kathep.github.io/trauma/)
+[Github repo](https://github.com/kathep/trauma/)  |  [Website](https://kathep.github.io/trauma/)
