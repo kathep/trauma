@@ -1,0 +1,25 @@
+<table>
+  <thead>
+    <tr>
+      <th class="lalign">Version</th>
+      <th class="lalign">Date</th>
+      <th class="lalign">Title</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+
+{% assign listed_versions = site.versions | sort: "date" | reverse %}
+
+{% for version in listed_versions  %}
+  {% capture version_url %}{{ "" | absolute_url }}{{ version.url }}{% endcapture %}
+    <tr>
+      <td class="lalign"><a href="{{ version_url }}">Version {{ version.version }}</a></td>
+      <td class="lalign">{{ version.date |  date: "%B %Y" }}</td>
+      <td class="lalign">{{ version.title }}</td>
+    </tr>
+{% endfor %}
+
+  </tbody>
+</table>

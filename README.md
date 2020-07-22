@@ -1,6 +1,8 @@
 # Visualizing Trauma
 
-A project for visually communicating trauma science.
+A project for collating and (in the near future) visually communicating trauma science.
+
+
 
 [Resources](resources.md)
 

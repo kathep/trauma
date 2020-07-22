@@ -16,3 +16,11 @@ This is an unordered list of research to add to this project.
 
 ## Media
 * [After the wildfire](https://www.theguardian.com/world/2019/aug/26/climate-change-mental-health-wildfires-santa-rosa?CMP=Share_iOSApp_Other)
+
+## Trauma and design
+*Design is both a contributor to trauma and a tool that can be used for healing from trauma. We've  compiled a list of resources on this.*
+<ul>
+  <li><a href="https://hrcd.github.io/trauma#terms">Key terms</a></li>
+  <li><a href="https://hrcd.github.io/trauma#init">Related initiatives</a></li>
+  <li><a href="https://hrcd.github.io/trauma#init">Trigger self-care and first aid</a></li>
+</ul>

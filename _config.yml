@@ -1,1 +1,15 @@
-remote-theme: LeNPaul/Millennial
+theme: jekyll-theme-minimal
+
+title: Visualizing Trauma
+show_downloads: false
+url: https://kathep.github.io
+
+collections:
+  versions:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
