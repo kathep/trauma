@@ -5,7 +5,7 @@ comments: false
 categories: trauma
 ---
 
-## Key terms
+# Key terms
 
 The terms listed below are intentionally framed in plain language, or words that are commonly used in conversation. A wide range of disciplines discuss, document, study, and ameliorate trauma, including: behavioral health, psychology. Each discipline has specialist terms to describe various aspects of trauma; these are listed in the 'related terms' section below each main term. Experts related to terms are also listed below.
 
@@ -16,7 +16,7 @@ The terms listed below are intentionally framed in plain language, or words that
 {% assign hrcd = site.data.terms | where: "tags", "hrcd" %}
 
 
-### Trauma 101
+## Trauma 101
 
 *What do we talk about when we talk about trauma? Some of the commonly used terms, and our collective understandings of them.*
 
@@ -39,7 +39,7 @@ The terms listed below are intentionally framed in plain language, or words that
 {% endfor %}
 
 ---
-### Harms related to Trauma
+## Harms related to Trauma
 
 *What are the negative associations with trauma? Our understandings of the origins of trauma, and harms or negative effects associated with it.*
 
@@ -62,7 +62,7 @@ The terms listed below are intentionally framed in plain language, or words that
 {% endfor %}
 
 ---
-### Healing related to trauma
+## Healing related to trauma
 
 *What are the positive associations with trauma? Our understandings of the healthy and healing associations with trauma, and benefits arising from it.*
 
@@ -85,7 +85,8 @@ The terms listed below are intentionally framed in plain language, or words that
 {% endfor %}
 
 ---
-### Trauma and human rights centered design
+
+## Trauma and human rights centered design
 
 *How does human rights centered design relate to trauma? Our early thoughts on trauma as an intersectional term, and a lens through which to view human rights centered design work.*
 
@@ -107,12 +108,13 @@ The terms listed below are intentionally framed in plain language, or words that
 
 {% endfor %}
 
+---
 
-### Trauma-related design initiatives</h4>
+## Trauma-related design initiatives</h4>
 
 {% assign movements = site.data.movements | group_by: "type" %}
 {% for type in movements  %}
-<h5> {{ type.name | capitalize }} </h5>
+<h4> {{ type.name | capitalize }} </h4>
   <ul>
     {% for movement in type.items %}
         <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
@@ -121,8 +123,10 @@ The terms listed below are intentionally framed in plain language, or words that
   </ul>
 {% endfor %}
 
-<h4 id="aid">Trigger self-care and first aid</h4>
-<p><em>When a trigger is experienced, there are many strategies from a wide range of knowledge traditions that can assist a triggered person with regulating, and accelerate returning to a non-triggered state. Some of the ones listed below we have found personally helpful.</em></p>
+---
+
+## Trigger self-care and first aid
+When a trigger is experienced, there are many strategies from a wide range of knowledge traditions that can assist a triggered person with regulating, and accelerate returning to a non-triggered state. Some of the ones listed below we have found personally helpful.
 
 <ul>
   <li>jin shen point 17 - deactivates the vagus nerve</li>
