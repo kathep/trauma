@@ -110,7 +110,7 @@ The terms listed below are intentionally framed in plain language, or words that
 
 ---
 
-## Trauma-related design initiatives</h4>
+## Trauma-related design initiatives
 
 {% assign movements = site.data.movements | group_by: "type" %}
 {% for type in movements  %}
