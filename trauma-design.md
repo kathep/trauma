@@ -7,7 +7,7 @@ categories: trauma
 
 # Key terms
 
-The terms listed below are intentionally framed in plain language, or words that are commonly used in conversation. A wide range of disciplines discuss, document, study, and ameliorate trauma, including: behavioral health, psychology. Each discipline has specialist terms to describe various aspects of trauma; these are listed in the 'related terms' section below each main term. Experts related to terms are also listed below.
+The terms listed below are intentionally framed in plain language, or words that are commonly used in conversation. A wide range of disciplines contribute to, document, study, or ameliorate trauma, including: behavioral health, clinical psychology, decolonial studies, education, gender studies, indigenous studies, law, neurophysiology, positive psychology, public health, social justice, and wellness. Each discipline has specialist terms to describe various aspects of trauma; these are listed in the 'related terms' section below each main term.
 
 {% assign termlist = site.data.terms | where_exp: "item", "item.categories contains page.categories" %}
 {% assign introterms = site.data.terms | where_exp: "item", "item.tags contains 'intro'" %}
@@ -23,7 +23,7 @@ The terms listed below are intentionally framed in plain language, or words that
 {% for term in introterms %}
 
 <dl>
-  <dt>{{ term.name }}</dt>
+  <dt>{{ term.name | capitalize }}</dt>
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
@@ -46,7 +46,7 @@ The terms listed below are intentionally framed in plain language, or words that
 {% for term in site.data.terms | where: "tags", "harms" %}
 
 <dl>
-  <dt>{{ term.name }}</dt>
+  <dt>{{ term.name | capitalize  }}</dt>
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
@@ -69,7 +69,7 @@ The terms listed below are intentionally framed in plain language, or words that
 {% for term in site.data.terms | where: "tags", "helps" %}
 
 <dl>
-  <dt>{{ term.name }}</dt>
+  <dt>{{ term.name | capitalize  }}</dt>
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
@@ -93,7 +93,7 @@ The terms listed below are intentionally framed in plain language, or words that
 {% for term in hrcd %}
 
 <dl>
-  <dt>{{ term.name }}</dt>
+  <dt>{{ term.name | capitalize  }}</dt>
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
